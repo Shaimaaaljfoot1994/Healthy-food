@@ -1,0 +1,76 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box
+}
+
+html{
+color: #555;
+font-family:'Cairo', sans-serif;
+font-weight: 400;
+font-size: 20px ;
+}
+.row{
+
+    max-width: 1140px;SS
+    margin: 0 auto;
+
+}
+header{
+background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(../img/pgimg.jpg);
+background-size: cover;
+
+height: 100vh;
+
+}
+h1{
+    margin.top: 0;
+    margin.bottom:40px ;
+    font-size: 350%;
+    font-weight: 300;
+    word-spacing:
+}
+/*this code design the page title*/
+.hero-text-box{
+    width: 1140px;
+    position: absolute;
+    top: 40%; 
+    left: 60%;
+    transform: translate(-50% ,-50%); 
+}
+
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 80%;
+    border-radius: 5px;
+    transition: background-color 0.3s,color 0.3s;
+}
+.btn-full:link,
+.btn-full:visited{
+    background-color:#10ac84;
+    
+margin.left:30px ;
+border: 1px solid #10ac84;
+color: #fff;
+}
+.btn-full:hover,
+.btn-full:active{
+
+    background-color: #0d8d6c;
+}
+
+.btn-border:link,
+.btn-border:visited{
+border: 1px solid #10ac84;
+color:#10ac84;
+
+}
+.btn-border:hover,
+.btn-border:active{
+
+background-color: #10ac84;
+color: #fff;
+}

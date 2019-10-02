@@ -26,7 +26,7 @@ y = 15;
 z = x + y;
 var owner
 owner = 'Iam the owner of this website'
-document.write('<h3>'+ dania +'</h3>');
+document.write('<h3>'+ Shaimaa +'</h3>');
 document.write('<h3>'+ age +'</h3>');
 document.write('<h3>'+ z +'</h3>');
 document.write('<h3>'+ owner +'</h3>');

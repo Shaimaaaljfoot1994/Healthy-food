@@ -17,7 +17,7 @@ font-size: 20px ;
 
 }
 header{
-background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)), url(../img/pgimg.jpg);
+background-image: linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3)),(..img/);
 background-size: cover;
 
 height: 100vh;
@@ -27,8 +27,6 @@ h1{
     margin.top: 0;
     margin.bottom:40px ;
     font-size: 350%;
-    font-weight: 300;
-    word-spacing:
 }
 /*this code design the page title*/
 .hero-text-box{

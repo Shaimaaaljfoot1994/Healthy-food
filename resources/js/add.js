@@ -32,13 +32,13 @@ document.write('<h3>'+ z +'</h3>');
 document.write('<h3>'+ owner +'</h3>');
 
 
-var yourweight = prompt (' Inter your weight in Kg, please');
+var yourAge = prompt (' Inter your ِAge , please');
 var word ;
-if (yourweight > 100) {
-    word = 'over weight';
-} else if (yourweight > 50 && yourweight < 100) {
+if (yourAge > 50) {
+    word = 'over Age';
+} else if (yourAge > 20 && yourAge < 50) {
     word = 'average';
-} else if (yourweight < 50) {
+} else if (yourAge < 20) {
     word = 'skinny';   
 } else {
     word = 'error';
